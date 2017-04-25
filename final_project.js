@@ -3,7 +3,10 @@ var namespace = "http://www.w3.org/2000/svg"
 // Write your code here!
 
 var rect = makeRect(25,25,10,10,"gray",1)
-var width = 50
+var width = 10
+makeImage("https://m.popkey.co/dee3e0/Ep7Dm.gif",0,-30,100,100,1)
+makeImage("https://m.popkey.co/dee3e0/Ep7Dm.gif",0,-20,100,100,1)
+var circle = makeCircle(0,25,30,"#28726E",1)
 
 function sky(){
 
