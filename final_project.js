@@ -2,47 +2,31 @@ var namespace = "http://www.w3.org/2000/svg"
 
 // Write your code here!
 
-var rect = makeRect(25,25,10,10,"gray",1)
 var width = 10
-makeImage("https://m.popkey.co/dee3e0/Ep7Dm.gif",0,-30,100,100,1)
-makeImage("https://m.popkey.co/dee3e0/Ep7Dm.gif",0,-20,100,100,1)
-var circle = makeCircle(0,25,30,"#28726E",1)
-
-function sky(){
-
-  rect.setAttribute("width", 9)
-  rect.setAttribute("height",9)
-  rect.setAttribute("width", 8)
-  rect.setAttribute("height",8)
-  rect.setAttribute("width", 7)
-  rect.setAttribute("height",7)
-  rect.setAttribute("width", 6)
-  rect.setAttribute("height",6)
-  rect.setAttribute("width", 5)
-  rect.setAttribute("height",5)
-  rect.setAttribute("width", 4)
-  rect.setAttribute("height",4)
-  rect.setAttribute("width", 3)
-  rect.setAttribute("height",3)
-  rect.setAttribute("width", 2)
-  rect.setAttribute("height",2)
-  rect.setAttribute("width", 1)
-  rect.setAttribute("height",1)
-
-
-}
+makeImage("https://m.popkey.co/dee3e0/Ep7Dm.gif",0,0,50,100,1)
+makeImage("https://m.popkey.co/dee3e0/Ep7Dm.gif",0,-10,50,100,1)
+makeImage("https://m.popkey.co/dee3e0/Ep7Dm.gif",0,-20,50,100,1)
+makeImage("https://m.popkey.co/dee3e0/Ep7Dm.gif",0,-30,50,100,1)
+makeImage("https://m.popkey.co/dee3e0/Ep7Dm.gif",0,-40,50,100,1)
 
 
 
-
-sky()
-
-
-
-
-
-
-
+makeCircle(0,25,30,"#3380B5",1)
+makeRect(1,1,10,5,"#85C567",1)
+makeCircle(1,3.5,2.5,"#85C567",1)
+makeCircle(11,3.5,2.5,"#85C567",1)
+makeRect(6,9,10,5,"#85C567",1)
+makeCircle(16,11.5,2.5,"#85C567",1)
+makeCircle(6,11.5,2.5,"#85C567",1)
+makeRect(3,20,10,5,"#85C567",1)
+makeCircle(3.4,22.5,2.5,"#85C567",1)
+makeCircle(13,22.5,2.5,"#85C567",1)
+makeRect(9,28,10,5,"#85C567",1)
+makeCircle(9,30.5,2.5,"#85C567",1)
+makeCircle(18.7,30.5,2.5,"#85C567",1)
+makeRect(3,38,10,5,"#85C567",1)
+makeCircle(3,40.5,2.5,"#85C567",1)
+makeCircle(13,40.5,2.5,"#85C567",1)
 
 
 
