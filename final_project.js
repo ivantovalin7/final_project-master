@@ -11,30 +11,54 @@ makeImage("https://m.popkey.co/dee3e0/Ep7Dm.gif",0,-40,50,100,1)
 
 
 
-makeCircle(0,25,30,"#3380B5",1)
-makeRect(1,1,10,5,"#85C567",1)
-makeCircle(1,3.5,2.5,"#85C567",1)
-makeCircle(11,3.5,2.5,"#85C567",1)
-makeRect(6,9,10,5,"white",1)
-makeCircle(16,11.5,2.5,"white",1)
-makeCircle(6,11.5,2.5,"white",1)
-makeRect(3,19,10,7,"#85C567",1)
-makeCircle(3.5,22.5,3.5,"#85C567",1)
-makeCircle(13,22.5,3.5,"#85C567",1)
-makeRect(9,23,10,6,"#85C567",1)
-makeCircle(9,25.5,3.5,"#85C567",1)
-makeCircle(18.7,26,3,"#85C567",1)
-makeRect(3,38,10,5,"White",1)
-makeCircle(3,40.5,2.5,"white",1)
-makeCircle(13,40.5,2.5,"white",1)
+var world = makeCircle(0,25,30,"#3380B5",1)
+var r1 = makeRect(1,1,10,5,"limegreen",1)
+var mc1 = makeCircle(1,3.5,2.5,"limegreen",1)
+var mc2 = makeCircle(11,3.5,2.5,"limegreen",1)
+var r2 = makeRect(3,19,10,5,"limegreen",1)
+var mc3 = makeCircle(3.5,21.5,2.5,"limegreen",1)
+var mc4 = makeCircle(13,22.5,3.5,"limegreen",1)
+var r3 = makeRect(9,23,10,3,"limegreen",1)
+var mc5 = makeCircle(9,23.5,2.5,"limegreen",1)
+var mc6 = makeCircle(18.7,24.5,1.5,"limegreen",1)
+var r4 = makeRect(6,0.6,9,3,"white",1)
+var mc7 =makeCircle(14.7,2.1,1.5,"white",1)
+var mc8 = makeCircle(6,2.1,1.5,"white",1)
+var r5 = makeRect(8,34,10,3,"limegreen",1)
+var mc9 = makeCircle(8,35.5,1.5,"limegreen")
+var mc10 = makeCircle(18,35.5,1.5,"limegreen")
+var r6 = makeRect(3,35.5,10,4,"White",1)
+var mc11 = makeCircle(3,37.5,2,"white",1)
+var mc12 = makeCircle(13,37.5,2,"white",1)
+var r7 = makeRect(6.8,9,10,5.1,"white")
+var mc13 = makeCircle(16.67,11.56,2.55,"white",1)
+var mc14 = makeCircle(6.7,11.56,2.55,"white",1)
 
-
-
-
-
-
-
-
+function animate() {
+  move(r1,1,0)
+  move(mc1,1,0)
+  move(mc2,1,0)
+  move(r2,1,0)
+  move(mc3,1,0)
+  move(mc4,1,0)
+  move(r3,1,0)
+  move(mc5,1,0)
+  move(mc6,1,0)
+  move(r4,1,0)
+  move(mc7,1,0)
+  move(mc8,1,0)
+  move(r5,1,0)
+  move(mc9,1,0)
+  move(mc10,1,0)
+  move(r6,1,0)
+  move(mc11,1,0)
+  move(mc12,1,0)
+  move(r7,1,0)
+  move(mc13,1,0)
+  move(mc14,1,0)
+  }
+  requestAnimationFrame(animate)
+  animate()
 
 
 
